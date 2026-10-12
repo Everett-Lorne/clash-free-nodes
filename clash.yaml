@@ -788,7 +788,7 @@ proxies:
   cipher: aes-256-gcm
   password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
   udp: true
-- name: SG SS-516 | free-nodes
+- name: SG SS-532 | free-nodes
   type: ss
   server: 192.0.2.1
   port: 1
@@ -913,7 +913,7 @@ proxy-groups:
   - 未知 SS-110 | free-nodes
   - 未知 SS-111 | free-nodes
   - 未知 SS-112 | free-nodes
-  - SG SS-516 | free-nodes
+  - SG SS-532 | free-nodes
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1032,6 +1032,6 @@ proxy-groups:
   - 未知 SS-110 | free-nodes
   - 未知 SS-111 | free-nodes
   - 未知 SS-112 | free-nodes
-  - SG SS-516 | free-nodes
+  - SG SS-532 | free-nodes
 rules:
 - MATCH,FREE-NODES
