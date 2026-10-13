@@ -398,35 +398,35 @@ proxies:
   udp: true
 - name: 未知 SS-57 | free-nodes
   type: ss
-  server: 15.164.245.92
-  port: 8443
+  server: ss.043.node-for-bigairport.win
+  port: 20006
   cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
   udp: true
 - name: 未知 SS-58 | free-nodes
   type: ss
-  server: 13.212.109.205
+  server: 15.164.245.92
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   udp: true
 - name: 未知 SS-59 | free-nodes
   type: ss
-  server: 13.212.173.211
+  server: 13.212.109.205
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   udp: true
 - name: 未知 SS-60 | free-nodes
   type: ss
-  server: 13.212.248.1
+  server: 13.212.173.211
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   udp: true
 - name: 未知 SS-61 | free-nodes
   type: ss
-  server: 3.35.135.174
+  server: 13.212.248.1
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
@@ -531,17 +531,17 @@ proxies:
   udp: true
 - name: 未知 SS-76 | free-nodes
   type: ss
-  server: feow.nomush.ir
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: K63q-WhHdJoC_AIxT6E4r_IIuGIb6CuV
-  udp: true
-- name: 未知 SS-77 | free-nodes
-  type: ss
   server: 57.129.113.16
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: NcAXc0UZI6yQJE1p8QmOv8
+  udp: true
+- name: 未知 SS-77 | free-nodes
+  type: ss
+  server: 194.68.44.42
+  port: 64546
+  cipher: chacha20-ietf-poly1305
+  password: U83u9OGpvSatIUW7LsWffr
   udp: true
 - name: 未知 SS-78 | free-nodes
   type: ss
@@ -816,7 +816,7 @@ proxies:
   cipher: aes-256-gcm
   password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
   udp: true
-- name: SG SS-518 | free-nodes
+- name: SG SS-542 | free-nodes
   type: ss
   server: 192.0.2.1
   port: 1
@@ -945,7 +945,7 @@ proxy-groups:
   - 未知 SS-114 | free-nodes
   - 未知 SS-115 | free-nodes
   - 未知 SS-116 | free-nodes
-  - SG SS-518 | free-nodes
+  - SG SS-542 | free-nodes
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1068,6 +1068,6 @@ proxy-groups:
   - 未知 SS-114 | free-nodes
   - 未知 SS-115 | free-nodes
   - 未知 SS-116 | free-nodes
-  - SG SS-518 | free-nodes
+  - SG SS-542 | free-nodes
 rules:
 - MATCH,FREE-NODES
