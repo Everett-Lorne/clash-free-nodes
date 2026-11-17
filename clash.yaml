@@ -4,6 +4,13 @@ mode: rule
 log-level: info
 ipv6: true
 proxies:
+- name: 未知 SS-01 | free-nodes
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 - name: DE SS-04 | free-nodes
   type: ss
   server: 202.50.253.45
@@ -80,6 +87,7 @@ proxy-groups:
   proxies:
   - AUTO
   - DIRECT
+  - 未知 SS-01 | free-nodes
   - DE SS-04 | free-nodes
   - DE SS-05 | free-nodes
   - DE SS-06 | free-nodes
@@ -96,6 +104,7 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - 未知 SS-01 | free-nodes
   - DE SS-04 | free-nodes
   - DE SS-05 | free-nodes
   - DE SS-06 | free-nodes
